@@ -2,6 +2,7 @@ import { Container } from './signInStyle';
 import logocompleta from '../../assets/logocompleta.png';
 import { useNavigate } from 'react-router-dom';
 import { useRef } from 'react';
+import HomeButton from '../../constants/homebutton/HomeButton';
 
 export default function Signin() {
   const emailRef = useRef(null);
@@ -17,6 +18,7 @@ export default function Signin() {
   return (
     <Container>
       <div>
+        <HomeButton />
         <img src={logocompleta} alt='logo' />
       </div>
       <div>

@@ -13,21 +13,21 @@ export default function Description() {
     <DescriptionContainer>
       <FirstDescriptionDiv>
         <p>
-          Espaço de atendimento especializado nas modalidades de Kangoo Jumps e
+          Espaço de atendimento especializado nas modalidades de Kangoo e
           Treinamento Funcional, buscando sempre a evolução.
         </p>
       </FirstDescriptionDiv>
       <MidDescriptionDiv>
         <img src={woman} />
         <p>
-          Kangoo Jumps, também chamadas de botas de reboot, são calçados
-          esportivos criados na década de 1990 pelo engenheiro Denise Mejia.
-          Essas botas possuem molas na sola para absorver até 80% do impacto e
-          reduzir o estresse nas articulações durante exercícios de alto
-          impacto, como corrida e aeróbica. Promovem drenagem linfática. Elas
-          são usadas em atividades aeróbicas, treinamento cardiovascular,
-          reabilitação e por atletas, proporcionando uma maneira única de
-          simular saltos e corridas para o treinamento de resistência e força.
+          Kangoo, também chamadas de botas de reboot, são calçados esportivos
+          criados na década de 1990 pelo engenheiro Denise Mejia. Essas botas
+          possuem molas na sola para absorver até 80% do impacto e reduzir o
+          estresse nas articulações durante exercícios de alto impacto, como
+          corrida e aeróbica. Promovem drenagem linfática. Elas são usadas em
+          atividades aeróbicas, treinamento cardiovascular, reabilitação e por
+          atletas, proporcionando uma maneira única de simular saltos e corridas
+          para o treinamento de resistência e força.
         </p>
       </MidDescriptionDiv>
       <LastDescriptionDiv>

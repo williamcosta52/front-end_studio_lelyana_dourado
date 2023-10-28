@@ -7,7 +7,6 @@ import {
   GpsStyle,
 } from './footerStyle';
 import gps from '../../assets/gps.png';
-import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import Warning from '../warning/Warning';
 

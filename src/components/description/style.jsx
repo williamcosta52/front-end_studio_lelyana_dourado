@@ -24,7 +24,7 @@ export const MidDescriptionDiv = styled.div`
   p {
     color: #000;
     font-family: Abel;
-    font-size: 12px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -37,7 +37,7 @@ export const LastDescriptionDiv = styled.div`
   p {
     color: #000;
     font-family: Abel;
-    font-size: 10px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

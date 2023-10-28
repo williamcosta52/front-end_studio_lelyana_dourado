@@ -3,11 +3,13 @@ import logocompleta from '../../assets/logocompleta.png';
 import { useRef, useState } from 'react';
 import Error from '../../constants/error/Error';
 import { useNavigate } from 'react-router-dom';
+import HomeButton from '../../constants/homebutton/HomeButton';
 
 export default function SignUp() {
   const emailRef = useRef(null);
   const passwordRef = useRef(null);
   const confirmPasswordRef = useRef(null);
+  const name = useRef(null);
   const [error, setError] = useState(false);
   const [message, setMessage] = useState('');
   const navigate = useNavigate();
@@ -26,6 +28,7 @@ export default function SignUp() {
     <>
       <Container>
         <div>
+          <HomeButton />
           <img src={logocompleta} alt='logo' />
         </div>
         <div>
@@ -33,6 +36,10 @@ export default function SignUp() {
             <label htmlFor='email'>
               Email:
               <input type='email' ref={emailRef} required />
+            </label>
+            <label htmlFor='name'>
+              Nome de usuário:
+              <input type='text' ref={name} required />
             </label>
             <label htmlFor='password'>
               Senha:
