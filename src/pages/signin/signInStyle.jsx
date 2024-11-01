@@ -8,23 +8,28 @@ export const Container = styled.div`
   background: #5fcbff;
   box-sizing: border-box;
   overflow: hidden;
+  span {
+    cursor: pointer;
+  }
+  h2 {
+    cursor: default;
+  }
   div:nth-child(1) {
     width: 100%;
     height: 50%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     img {
-      width: 75%;
-      height: 90%;
+      width: 15%;
+      height: 70%;
     }
   }
   div:nth-child(2) {
     height: 50%;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     form {
       display: flex;
@@ -34,7 +39,7 @@ export const Container = styled.div`
       button {
         margin-top: 5%;
         border-radius: 10px;
-        background: #8e7bff;
+        background: #e04db4;
         box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
         width: 239px;
         height: 41px;
@@ -46,6 +51,7 @@ export const Container = styled.div`
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        cursor: pointer;
       }
       label {
         display: flex;

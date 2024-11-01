@@ -5,14 +5,15 @@ import { styled } from 'styled-components';
 export default function HomeButton() {
   const navigate = useNavigate();
 
-  return <HomeIcon onClick={() => navigate('/home')} />;
+  return <HomeIcon onClick={() => navigate('/')} />;
 }
 
 const HomeIcon = styled(TbHomeMove)`
   position: fixed;
   z-index: 1;
-  top: 1%;
-  right: 4.5%;
+  top: 3%;
+  right: -2%;
   width: 10%;
   height: 5%;
+  cursor: pointer;
 `;

@@ -31,7 +31,7 @@ export default function Signin() {
             Senha:
             <input type='password' ref={passwordRef} required />
           </label>
-          <h2 onClick={() => navigate('/sign-up')}>Não tem conta? Cadastrar</h2>
+          <h2>Não tem conta? <span onClick={() => navigate('/sign-up')}>Cadastrar</span></h2>
           <button>ENTRAR</button>
         </form>
       </div>
